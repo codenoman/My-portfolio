@@ -1,0 +1,592 @@
+.projects{
+  height: 950px;
+  /* background-color: #666; */
+}
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    animation: slidein 2s ease;
+  }
+  
+  h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  /* === HEADING STYLE #1 === */
+  .one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  }
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
+
+  .projecttwo{
+    display: flex;
+    
+    justify-content: space-around;
+  }.project{
+    display: flex;
+    animation: slidein 2s ease;
+    justify-content: space-around;
+  }
+    .projects-section1 {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      width: 40%;
+      height: 200px;
+      display: flex;
+      border-radius:24px;
+      justify-content: space-around;
+    }
+
+    .project {
+      width: 100%;
+      /* height: 60vh; */
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      /* align-items: center; */
+  
+      >.projects-section1 {
+          /* background-color:blue; */
+          border-radius:24px;
+          width: 30%;
+          height: 200px;
+          background: url(../image/calc-app2.gif) center/cover;
+          margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      width: 40%;
+      height: 300px;
+      display: flex;
+      border-radius:24px;
+      justify-content: space-around;
+  
+          a:hover {
+              width: 566px;
+              height: 99%;
+              border-radius:16px;
+              background-color: rgba(2, 81, 91, 0.7);
+              margin-top: -5px;
+  
+              >.overlay {
+                visibility: visible;
+                color: rgb(255, 255, 255);
+                font-size: 32px;
+                justify-content: center;
+                align-items: center;
+              }
+  
+              /* >.projp{
+                  visibility: visible;
+                  color: white;
+                  font-size: 14px;
+                  margin-top: -40px;
+                  font-family: cursive;
+              }
+              >.projh{
+                visibility: visible;
+                color: rgb(214, 0, 0);
+                font-size: 60px;
+                margin-top: -40px;
+                font-family: cursive;
+            } */
+          }
+  
+  
+          >a {
+              transition: .7s;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 0px auto;
+              flex-direction: column;
+          
+              background-color: none;
+              >.overlay {
+                  visibility: hidden;
+
+              }
+  
+              /* >.projp {
+                  visibility: hidden;
+              }
+              >.projh {
+                visibility: hidden;
+            } */
+
+          }
+      }
+  }
+.projh{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient( #553c9a 0%, #553c9a 33%, #ee4b2b 33%, #ee4b2b 66%, #00c2cb 66%, #00c2cb 99%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text}
+.projp{
+    font-family: cursive;
+}
+  
+
+  
+  .project {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+    >.projects-section2 {
+        /* background-color:blue; */
+        border-radius:24px;
+        width: 30%;
+        height: 200px;
+        background: url(../image/tic\ tae\ toc2.gif) center/cover;
+        margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    border-radius:24px;
+    justify-content: space-around;
+
+    a:hover {
+        width: 566px;
+        height: 99%;
+        border-radius:16px;
+        background-color: rgba(2, 81, 91, 0.7);
+        margin-top: -5px;
+
+        >.overlay {
+          visibility: visible;
+          color: white;
+          font-size: 32px;
+        }
+
+        >.projp{
+            visibility: visible;
+            color: white;
+            font-size: 14px;
+            margin-top: -40px;
+            font-family: cursive;
+        }
+        >.projh{
+          visibility: visible;
+          color: rgb(214, 0, 0);
+          font-size: 60px;
+          margin-top: -40px;
+          font-family: cursive;
+      }
+    }
+
+
+    >a {
+        transition: .7s;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        flex-direction: column;
+    
+        background-color: none;
+        >.overlay {
+            visibility: hidden;
+        }
+
+        >.projp {
+            visibility: hidden;
+        }
+        >.projh {
+          visibility: hidden;
+      }
+
+    }
+}
+}
+
+
+
+
+.projects-section2 {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+     width: 40%;
+      height: 200px;
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    
+   
+
+
+
+    .project {
+      width: 100%;
+      height: 60vh;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-evenly;
+      /* align-items: center; */
+  
+      >.projects-section2 {
+          /* background-color:blue; */
+          border-radius:24px;
+          width: 30%;
+          height: 100%;
+          background: url(../image/tic\ tae\ toc2.gif) center/cover;
+          margin-top: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      width: 40%;
+      height: 200px;
+      display: flex;
+      border-radius:24px;
+      justify-content: space-around;
+  
+      a:hover {
+        width: 566px;
+        height: 99%;
+        border-radius:16px;
+        background-color: rgba(2, 81, 91, 0.7);
+        margin-top: -5px;
+
+        >.overlay {
+          visibility: visible;
+          color: rgb(255, 255, 255);
+          font-size: 32px;
+          justify-content: center;
+          align-items: center;
+        }
+
+        /* >.projp{
+            visibility: visible;
+            color: white;
+            font-size: 14px;
+            margin-top: -40px;
+            font-family: cursive;
+        }
+        >.projh{
+          visibility: visible;
+          color: rgb(214, 0, 0);
+          font-size: 60px;
+          margin-top: -40px;
+          font-family: cursive;
+      } */
+    }
+
+
+    >a {
+        transition: .7s;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        flex-direction: column;
+    
+        background-color: none;
+        >.overlay {
+            visibility: hidden;
+
+        }
+
+        /* >.projp {
+            visibility: hidden;
+        }
+        >.projh {
+          visibility: hidden;
+      } */
+
+    }
+}
+  }
+  
+  
+  
+  
+  .projects-section2 {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f5f5f5;
+       width: 40%;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        
+      }
+      
+     .projecttwo {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    animation: slidein 10s ease;
+
+    >.projects-section3 {
+        /* background-color:blue; */
+        border-radius:24px;
+        width: 30%;
+        height: 100%;
+        background: url(../image/todoappimg.gif) center/cover;
+        margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    border-radius:24px;
+    justify-content: space-around;
+
+    a:hover {
+        width: 566px;
+        height: 99%;
+        border-radius:16px;
+        background-color: rgba(2, 81, 91, 0.7);
+        margin-top: -5px;
+
+        >.overlay {
+          visibility: visible;
+          color: rgb(255, 255, 255);
+          font-size: 32px;
+          justify-content: center;
+          align-items: center;
+        }
+
+        /* >.projp{
+            visibility: visible;
+            color: white;
+            font-size: 14px;
+            margin-top: -40px;
+            font-family: cursive;
+        }
+        >.projh{
+          visibility: visible;
+          color: rgb(214, 0, 0);
+          font-size: 60px;
+          margin-top: -40px;
+          font-family: cursive;
+      } */
+    }
+
+
+    >a {
+        transition: .7s;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        flex-direction: column;
+    
+        background-color: none;
+        >.overlay {
+            visibility: hidden;
+
+        }
+
+        /* >.projp {
+            visibility: hidden;
+        }
+        >.projh {
+          visibility: hidden;
+      } */
+
+    }
+}
+}
+
+
+
+
+
+.projecttwo {
+  width: 100%;
+  height: 60vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+
+  >.projects-section4 {
+      /* background-color:blue; */
+      border-radius:24px;
+      width: 30%;
+      height: 100%;
+      background: url(../image/e-commerce.GIF) center/cover;
+      margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  width: 40%;
+  height: 200px;
+  display: flex;
+  border-radius:24px;
+  justify-content: space-around;
+
+  a:hover {
+    width: 566px;
+    height: 99%;
+    border-radius:16px;
+    background-color: rgba(2, 81, 91, 0.7);
+    margin-top: -5px;
+
+    >.overlay {
+      visibility: visible;
+      color: rgb(255, 255, 255);
+      font-size: 32px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* >.projp{
+        visibility: visible;
+        color: white;
+        font-size: 14px;
+        margin-top: -40px;
+        font-family: cursive;
+    }
+    >.projh{
+      visibility: visible;
+      color: rgb(214, 0, 0);
+      font-size: 60px;
+      margin-top: -40px;
+      font-family: cursive;
+  } */
+}
+
+
+>a {
+    transition: .7s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    flex-direction: column;
+
+    background-color: none;
+    >.overlay {
+        visibility: hidden;
+
+    }
+
+    /* >.projp {
+        visibility: hidden;
+    }
+    >.projh {
+      visibility: hidden;
+  } */
+
+}
+}
+}
+/* @keyframes slidein {
+    0% { margin-left:-2500px; }
+    20% { margin-left:-2500px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+  } */
+
+  .projects-section1 ,
+  .projects-section2 ,
+  .projects-section3 ,
+  .projects-section4 {
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    /* height: 200px; */
+ 
+  }
+
+
+  .projects-section1 a,
+  .projects-section2 a,
+  .projects-section3 a,
+  .projects-section4 a {
+    text-decoration: none;
+    padding: 10px;
+    /* background-color: #3498db; */
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+  }
+
+
+
+
+  /* Add a media query for mobile screens */
+@media only screen and (max-width: 600px) {
+    .project {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;/* Stack items vertically on small screens */
+    }
+    .projects{
+        width: 100%;
+        background-color: #080808;
+    }
+
+    .projects-section1 {
+        width: 70%; /* Full width on small screens */
+    }
+
+    .project > .projects-section1 {
+        width: 70%; /* Full width on small screens */
+    }
+    .projects-section2 {
+        width: 70%; /* Full width on small screens */
+    }
+
+    .project > .projects-section2 {
+        width: 70%; /* Full width on small screens */
+    }
+}

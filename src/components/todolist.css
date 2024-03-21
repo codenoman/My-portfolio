@@ -1,0 +1,81 @@
+/* General styling for all screen sizes */
+.todo-app {
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-color: antiquewhite;
+  justify-content: center;
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  background-color: rgb(200, 213, 222);
+}
+
+.task-input {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+}
+
+.task-input input {
+  padding: 4px;
+  font-size: 14px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
+  border: #ffffff;
+}
+
+.task-input .addbtn {
+  width: 50px;
+  margin-top: 10px;
+
+}
+
+.task-list {
+  list-style: none;
+  font-size: 20px;
+  background-color: rgb(233, 233, 233);
+  padding-top: 30px;
+}
+
+.task-list li {
+  margin-bottom: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-top: -30px; */
+}
+
+.task-buttons {
+   margin-top: -10px;
+}
+
+.task-buttons .editbtn,
+.task-buttons .delbtn,
+.savebtn {
+  width: 50px;
+  margin-top: 5px;
+}
+
+/* Media query for screens up to 600px (typical mobile screens) */
+@media only screen and (max-width: 600px) {
+  .task-input {
+    margin-bottom: 20px;
+  }
+
+  .task-input .addbtn {
+    margin-top: 10px;
+  }
+
+  .task-list li {
+    margin-bottom: 12px;
+  }
+
+  .task-buttons {
+    margin-top: 15px;
+  }
+}

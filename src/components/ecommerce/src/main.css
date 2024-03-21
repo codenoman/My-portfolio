@@ -1,0 +1,12 @@
+.button{
+    margin-left: 40%;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 300px;
+    height: 100px;
+   /* display: flex; */
+   justify-content: space-around;
+   padding-left: 40px;
+   padding-top: 60px;
+}

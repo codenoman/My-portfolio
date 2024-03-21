@@ -1,0 +1,230 @@
+/* Header.css */
+
+@font-face {
+  font-family: nomanalam ;
+  src: url(../image/Retosta.otf);
+}
+body{
+  background-color: #02000A;
+
+}
+
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+  background-color: #02000A;
+}
+
+.text {
+  /* background-color: #2600bf; */
+  justify-content: center;
+  width: 25%;
+  text-align: start;
+  margin-right: 80px;
+}
+
+ .mainheading {
+  font-size: 66px;
+  color: #ff0000;
+  /* margin-top: -90px; */
+  opacity: 10;
+  /* Start with opacity set to 0 */
+  animation: slidein 9 ease-in;
+  /* Apply the slideIn animation */
+  font-family: nomanalam;
+ /* padding-left: -850px; */
+  
+}
+@keyframes slidein {
+  0% { margin-left:-500px; }
+  20% { margin-left:-500px; }
+  35% { margin-left:0px; }
+  100% { margin-left:0px; }
+}
+
+.text .mainheading {
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 160px;
+  text-align: center;
+  /* margin: auto; */
+  white-space: nowrap;
+  padding-bottom: 13px;
+  /* margin-right: 80px; */
+}
+
+.text .mainheading:before {
+  background-color: #c54200;
+  content: '';
+  display: block;
+  height: 3px;
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+/* .text .mainheading:after {
+  background-color: #9d5600;
+  content: '';
+  display: block;
+  position: absolute;
+  right: 170px;
+  bottom: 0;
+  height: 3px;
+  width: 175px;
+  margin-bottom: 0.25em;
+} */
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    /* Initial position off-screen */
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    /* Final position on-screen */
+    opacity: 1;
+  }
+}
+
+.itme {
+  height: 190px;
+  width: 200px;
+  mix-blend-mode: darken;
+  opacity: 10;
+  /* Start with opacity set to 0 */
+  animation: slidein 3s infinite;
+  /* Start with the div off-screen */
+  /* animation: slideIn 1s ease forwards; */
+  /* Apply the slideIn animation */
+  
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(0);
+    /* Initial position off-screen */
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(-50px);
+    /* Final position on-screen */
+    opacity: 1;
+  }
+}
+
+
+.text p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.viewwork {
+  background-color: #f20000;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-family: monospace;
+  width: 90px;
+  height: 90px;
+
+}
+
+.viewwork:hover {
+  /* background-color: #c01414; */
+    box-shadow: 0px 0px 20px 5px rgba(255, 150, 37, 0.3);
+  
+}
+
+.img1 {
+  /* mix-blend-mode: darken; */
+  width: 600px;
+  margin-top: 100px;
+}
+
+
+
+/* Add appropriate media queries for your desired mobile screen size */
+
+
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    /* Stack elements vertically for small screens */
+  }
+
+  .text {
+    width: 100%;
+    justify-content: center;
+align-items: center;
+text-align: center;
+  }
+
+  .text h1 {
+    font-size: 44px;
+    /* Adjusted font size for smaller screens */
+    margin-top: 0;
+    margin-left: 110px;
+  }
+
+  .itme {
+    height: 150px;
+    /* Adjusted height for smaller screens */
+    
+  }
+
+  .img1 {
+    width: 100%;
+  }
+
+  .text p {
+    font-size: 14px;
+    /* Adjusted font size for smaller screens */
+    font-family: cursive;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .viewwork {
+    font-size: 14px;
+    /* Adjusted font size for smaller screens */
+    /* margin-left: 150px; */
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+    /* Hide the nav items by default on smaller screens */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav.mobile-menu-open {
+    display: flex;
+    /* Show the nav items when mobile menu is open */
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    /* Show the mobile menu icon on smaller screens */
+  }
+}
