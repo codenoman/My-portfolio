@@ -1,38 +1,4 @@
-/* .projects {
-    width: 90%;
-    height: 600px;
-    background-color: beige;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-left: 70px;
-}
 
-.project {
-    display: flex;
-    margin-top: 20px;
-}
-
-.projects-section1,
-.projects-section2,
-.projects-section3,
-.projects-section4 {
-    flex: 1;
-    border: 1px solid #e5e5e5;
-    padding: 1px;
-    margin: 5px;
-    height: 400px;
-    width: 300px;
-    border-radius: 12px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
-}
-.projects-section1{
-    background: url(../image/calc-app2.gif) center/cover;
-}
-.projects-section2{
-    background: url(../image/tic\ tae\ toc2.gif) center/cover;
-
-} */
 .flex-container {
     display: flex;
     margin-top: 20px;

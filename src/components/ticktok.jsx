@@ -39,7 +39,7 @@ const Tictok = () => {
   if (winner) {
     status = `Winner: ${winner}`;
   } else if (board.every((square) => square !== null)) {
-    status = 'It\'s a draw!';
+    status = 'It s a draw!';
   } else {
     status = `Next player: ${xIsNext ? 'X' : 'O'}`;
   }

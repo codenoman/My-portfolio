@@ -1,4 +1,4 @@
-src/ContactPage.css .contact-page {
+ .contact-page {
   box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
 
   padding: 20px;
@@ -17,11 +17,11 @@ src/ContactPage.css .contact-page {
   display: flex;
   justify-content: space-around;
 
-  /* display: flex; */
+  
 }
 
 .contactimg {
-  /* background-color: #333; */
+ 
   height: 499px;
 }
 
@@ -42,16 +42,13 @@ h6 {
 }
 
 .social-icons {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* margin-bottom: 10px; */
+ 
   animation: moving 3s ease;
-  /* margin-left: 800px; */
-  /* margin-top: -70px; */
+ 
   background: none;
-  /* background-color: #38ef7d; */
+ 
   width: 30%;
-  /* background-color: #38ef7d; */
+
   margin-right: 300px;
 
 
@@ -110,9 +107,7 @@ h6 {
 .socialimg {
   width: 300px;
   height: 250px;
-  /* mix-blend-mode: darken; */
-  /* margin-left: 190px; */
-  /* background-color: #02000A; */
+  
 
 
 
@@ -120,7 +115,7 @@ h6 {
 
 .social-image {
   height: 300px;
-  /* margin-top: 60px; */
+
   display: flex;
   justify-content: space-evenly;
   /* background-color: #591919; */
@@ -129,7 +124,7 @@ h6 {
 .social-icons a {
   font-size: 50px;
   margin: 0 10px;
-  /* color: #3300ff; */
+
   margin-top: 50px;
   transition: color 0.3s ease;
   background: none;
@@ -151,7 +146,7 @@ h6 {
 
 .social-icons a:hover {
   font-size: 69px;
-  /* color: blue; */
+ 
 }
 
 
@@ -160,11 +155,11 @@ p {
 }
 
 .contecttextmain {
-  /* background-color: #11998e; */
+  
   height: 400px;
   width: 60%;
   margin-top: -60px;
-  /* margin-right: 400px; */
+ 
 
 }
 
@@ -181,8 +176,7 @@ p {
 
 form {
   display: flex;
-  /* flex-direction: column; */
-  /* background-color: aqua; */
+ 
   justify-content: space-around;
   height: 300px;
   font-size: 50px;
@@ -201,7 +195,7 @@ form {
 }
 
 .form__field {
-  /* font-family: inherit; */
+ 
   width: 100%;
   border: 0;
   border-bottom: 2px solid #9b9b9b;
@@ -211,7 +205,7 @@ form {
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
-  /* height: 100px; */
+  
   width: 500px;
   height: 30px;
 
@@ -227,7 +221,7 @@ form {
 }
 
 .form__fields {
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+ 
   width: 100%;
   border: 0;
   border-bottom: 2px solid #9b9b9b;
@@ -237,10 +231,10 @@ form {
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
-  /* height: 100px; */
+
   width: 400px;
   height: 100px;
-  /* margin-top: 90px; */
+ 
 
   &::placeholder {
     color: transparent;
@@ -250,7 +244,7 @@ form {
     font-size: 1.3rem;
     cursor: text;
     top: 20px;
-    /* margin-top: 90px; */
+  
 
   }
 }
@@ -282,7 +276,7 @@ form {
   border-image-slice: 1;
 }
 
-/* reset input */
+
 .form__field {
 
   &:required,
@@ -291,49 +285,37 @@ form {
   }
 }
 
-/* demo */
-/* body {
-  font-family: 'Poppins', sans-serif; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-size: 1.5rem;
-  background-color:#222222;
-} */
+
 .social {
   display: flex;
   justify-content: space-between;
   height: 300px;
-  /* box-shadow: 10px 10px 20px 5px rgba(219, 219, 219, 0.3); */
-  /* margin-top: 50px; */
-  /* background-color: blueviolet; */
+ 
 }
 
 .messegediv {
-  /* background-color: #007bff; */
+ 
   height: 250px;
 
 }
 
 .messegedivone {
-  /* background-color: #007bff; */
+ 
   height: 200px;
 }
 
 .messege {
   font-size: 56px;
-  /* animation: slidein 6s ease; */
+ 
   font-weight: bolder;
   font-family: cursive;
   color: #fb0000;
 }
 
 .contbtn {
-  /* background-color: #007bff; */
+
   color: #e7e7e7;
-  /* padding: 40px; */
+  
   cursor: pointer;
   border: none;
   width: 90px;

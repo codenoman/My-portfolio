@@ -1,4 +1,4 @@
-/* src/AboutPage.css */
+
 .about-page {
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   width: 40%;
   padding: 20px;
   align-items: center;
-  /* background-color: aqua; */
+
  margin-right: 100px;
  margin-top: 90px;
 }
@@ -42,16 +42,16 @@
 
 .black-div {
   width: 50%;
-  /* background-color: #000; */
+ 
   height: 450px;
-  /* Set a specific height or adjust as needed */
+  
 }
 
 .abtimg {
   width: 450px;
   height: 500px;
   margin-left: 30px;
-  /* mix-blend-mode: darken; */
+
 margin-left: 200px;
   
 }
@@ -72,25 +72,22 @@ p {
 
 
 
-/* Media Query for small screens (e.g., mobile devices) */
+
 @media only screen and (max-width: 600px) {
   .about-info {
     margin: 0;
-    /* Remove margin on small screens */
+    
     width: 90%;
     justify-content: center;
-    /* text-align: center; */
+    
     align-items: center;
-    /* margin-top: 50px; */
   }
 
   .about-page {
-    /* flex-direction: column; */
     height: 300px;
   }
 
   .abtimg {
-    /* margin-right: 50px; */
     margin-left: 10px;
     width: 100%;
     height: 300px;
@@ -99,12 +96,10 @@ p {
   .black-div {
     height: 150px;
     width: 100%;
-    /* Adjust height as needed for smaller screens */
   }
 
   .aboutp {
     font-size: 15px;
-    /* width: 100%; */
   }
   .about{
     font-size: 24px;
@@ -120,11 +115,9 @@ p {
 
   display: flex;
   justify-content: space-around;
-  /* margin-top: 20px; */
 }
 
 .design {
-  /* background-color: aquamarine; */
   width: 31%;
 
 
@@ -133,7 +126,7 @@ p {
 .dsgnh {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
-  /* margin-right: 200px; */margin-left: 50px;
+ margin-left: 50px;
   margin-top: 90px;
   width: 400px;
   color: white;
@@ -142,13 +135,11 @@ p {
 .dsgnp {
   font-family: cursive;
   font-size: 20px;
-  /* margin-right: 150px; */
   margin-left: 50px;
   color: white;
 }
 
 .skillimage {
-  /* background-color: violet; */
   width: 33%;
   justify-content: center;
 }
@@ -162,7 +153,6 @@ p {
 }
 
 .coder {
-  /* background-color: chartreuse; */
   width: 31%;
 
 }
@@ -184,14 +174,12 @@ p {
 
 
 
-/* Media Query for small screens (e.g., mobile devices) */
 @media only screen and (max-width: 600px) {
 
   .dsgnh,
   .codep {
     margin: -30px 0;
     width: 250px;
-    /* Adjust margin for better spacing on small screens */
   }
 
   .dsgnp,
@@ -201,8 +189,6 @@ p {
 
   .chartsimg {
     width: 350px;
-    /* Take full width on small screens */
-    /* Remove max-width for full-width images on small screens */
     height: 300px;
     margin-left: -170px;
     margin-bottom: 50px;
@@ -220,7 +206,7 @@ p {
   display: flex;
   width: 100%;
   height: 400px;
-  /* background-color: #2600bf; */
+ 
 
   box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
 
@@ -235,7 +221,6 @@ p {
   width: 440px;
   height: 400px;
   margin-left: 200px;
-  /* margin-top: -80px; */
 }
 
 .randomtext {
@@ -253,7 +238,6 @@ h4 {
 @media only screen and (max-width: 600px) {
   .cr7 {
     margin-left: 0;
-    /* Remove left margin on small screens */
     width: 100%;
     margin-top: -40px;
     height: 350px;
