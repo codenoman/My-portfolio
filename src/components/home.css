@@ -173,15 +173,16 @@ body{
   .text {
     width: 100%;
     justify-content: center;
-align-items: center;
-text-align: center;
+    align-items: center;
+    text-align: center;
+    /* padding-left: -390px; */
   }
 
-  .text h1 {
+  .text .mainheading {
     font-size: 44px;
     /* Adjusted font size for smaller screens */
     margin-top: 0;
-    margin-left: 110px;
+    margin-left: 30px;
   }
 
   .itme {
@@ -198,8 +199,8 @@ text-align: center;
     font-size: 14px;
     /* Adjusted font size for smaller screens */
     font-family: cursive;
-    margin-top: 60px;
-    margin-left: 40px;
+    /* margin-top: 60px; */
+    margin-left: 30px;
   }
 
   .viewwork {
@@ -207,24 +208,5 @@ text-align: center;
     /* Adjusted font size for smaller screens */
     /* margin-left: 150px; */
 
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .nav {
-    display: none;
-    /* Hide the nav items by default on smaller screens */
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav.mobile-menu-open {
-    display: flex;
-    /* Show the nav items when mobile menu is open */
-  }
-
-  .mobile-menu-icon {
-    display: block;
-    /* Show the mobile menu icon on smaller screens */
   }
 }
